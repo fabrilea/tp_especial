@@ -1,0 +1,12 @@
+.tabla, tr, th, td {
+    border: black 2px solid;
+}
+
+div.separar {
+    margin-top: 20px;
+}
+
+div.proposito {
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
