@@ -25,9 +25,15 @@ if($params[0] ==='login' || $params[0] === ''){
     $authController->showFormLogin();
     $controller->showFooter();
 }elseif($params[0] ==='validate'){
+    $controller->showHeader();
+    $CatController->showUniverso();
     $authController->validateUser();
+    $controller->showFooter();
 }elseif($params[0] ==='registrar') {
+    $controller->showHeader();
+    $CatController->showUniverso();
     $authController->agregarEmail();
+    $controller->showFooter();
 }elseif($params[0] ==='logout'){
     $authController->logout();
 }elseif($params[0] ==='inicio'){
